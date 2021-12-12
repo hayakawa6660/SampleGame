@@ -20,17 +20,25 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Source\app.cpp" />
+    <ClCompile Include="Source\Library\Common\GameObject.cpp" />
     <ClCompile Include="Source\Library\Common\SceneBase.cpp" />
     <ClCompile Include="Source\Library\Manager\Scene\SceneManager.cpp" />
     <ClCompile Include="Source\main.cpp" />
+    <ClCompile Include="Source\Scene\Play\Bullet\BulletManager.cpp" />
+    <ClCompile Include="Source\Scene\Play\Bullet\DefaultBullet.cpp" />
+    <ClCompile Include="Source\Scene\Play\Player\Player.cpp" />
     <ClCompile Include="Source\Scene\Play\PlayScene.cpp" />
     <ClCompile Include="Source\Scene\Title\TitleScene.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Source\app.h" />
     <ClInclude Include="Source\Common\CommonDefine.h" />
+    <ClInclude Include="Source\Library\Common\GameObject.h" />
     <ClInclude Include="Source\Library\Common\SceneBase.h" />
     <ClInclude Include="Source\Library\Manager\Scene\SceneManager.h" />
+    <ClInclude Include="Source\Scene\Play\Bullet\BulletManager.h" />
+    <ClInclude Include="Source\Scene\Play\Bullet\DefaultBullet.h" />
+    <ClInclude Include="Source\Scene\Play\Player\Player.h" />
     <ClInclude Include="Source\Scene\Play\PlayScene.h" />
     <ClInclude Include="Source\Scene\Title\TitleScene.h" />
   </ItemGroup>

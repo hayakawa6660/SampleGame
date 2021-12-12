@@ -19,6 +19,18 @@
     <ClCompile Include="Source\Scene\Play\PlayScene.cpp">
       <Filter>Source\Scene\Play</Filter>
     </ClCompile>
+    <ClCompile Include="Source\Library\Common\GameObject.cpp">
+      <Filter>Source\Library\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Scene\Play\Player\Player.cpp">
+      <Filter>Source\Scene\Play\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Scene\Play\Bullet\BulletManager.cpp">
+      <Filter>Source\Scene\Play\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Scene\Play\Bullet\DefaultBullet.cpp">
+      <Filter>Source\Scene\Play\Bullet</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Source\Library\Manager\Scene\SceneManager.h">
@@ -38,6 +50,18 @@
     </ClInclude>
     <ClInclude Include="Source\Scene\Play\PlayScene.h">
       <Filter>Source\Scene\Play</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Library\Common\GameObject.h">
+      <Filter>Source\Library\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Scene\Play\Player\Player.h">
+      <Filter>Source\Scene\Play\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Scene\Play\Bullet\BulletManager.h">
+      <Filter>Source\Scene\Play\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Scene\Play\Bullet\DefaultBullet.h">
+      <Filter>Source\Scene\Play\Bullet</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -64,6 +88,12 @@
     </Filter>
     <Filter Include="Source\Scene\Play">
       <UniqueIdentifier>{d9f4f3bb-a3d1-4a76-ae43-29a563122bd7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Scene\Play\Player">
+      <UniqueIdentifier>{4777df7b-c3ab-42f4-ac4c-eaa35aeafd44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Scene\Play\Bullet">
+      <UniqueIdentifier>{d6d235c8-3c33-415d-b901-be0dfc6879e5}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>
