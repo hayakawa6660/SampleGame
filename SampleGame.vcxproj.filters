@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Source\Library\Manager\Scene\SceneManager.cpp">
+      <Filter>Source\Library\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Library\Common\SceneBase.cpp">
+      <Filter>Source\Library\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\main.cpp">
+      <Filter>Source\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\app.cpp">
+      <Filter>Source\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Scene\Title\TitleScene.cpp">
+      <Filter>Source\Scene\TItle</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Scene\Play\PlayScene.cpp">
+      <Filter>Source\Scene\Play</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\Library\Manager\Scene\SceneManager.h">
+      <Filter>Source\Library\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Library\Common\SceneBase.h">
+      <Filter>Source\Library\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\app.h">
+      <Filter>Source\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Scene\Title\TitleScene.h">
+      <Filter>Source\Scene\TItle</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Common\CommonDefine.h">
+      <Filter>Source\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Scene\Play\PlayScene.h">
+      <Filter>Source\Scene\Play</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{719e9da8-a461-4d95-a303-db23eb5c3a62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Library">
+      <UniqueIdentifier>{be52977a-3272-4ef7-bb4b-95ee14bb21ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Scene">
+      <UniqueIdentifier>{c8e56aa9-acaa-4505-98d2-4cbfa379cd18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Library\Manager">
+      <UniqueIdentifier>{b7fb95b9-a06e-496c-8e10-50a73cd52233}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Library\Common">
+      <UniqueIdentifier>{130616b7-790b-428c-a19f-dd10974e4f7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Common">
+      <UniqueIdentifier>{96106059-2f28-48f7-8415-3f9b2daf55de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Scene\TItle">
+      <UniqueIdentifier>{e3c035ee-a147-4776-8408-73f66c390362}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Scene\Play">
+      <UniqueIdentifier>{d9f4f3bb-a3d1-4a76-ae43-29a563122bd7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
