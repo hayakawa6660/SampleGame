@@ -1,10 +1,11 @@
 #include <DxLib.h>
 #include "App.h"
+#include "Common/CommonDefine.h"
 
 // プログラムは WinMain から始まります
 int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine, int nCmdShow)
 {
-	SetGraphMode(800, 600, 32);
+	SetGraphMode(CommonDefine::WindowWidth, CommonDefine::WindowHeight, 32);
 	SetOutApplicationLogValidFlag(FALSE); // ログを出さない
 #if _DEBUG // デバッグビルドのときだけ
 	SetMainWindowText("デバッグウィンドウ");
